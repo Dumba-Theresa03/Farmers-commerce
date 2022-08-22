@@ -1,25 +1,64 @@
-const products =[
-    {
-        name: "tomatoes",
-        price: 25,
-        owner: "Thessy",
-        qnty: 2.5,
-        image: "tomatoes.jpeg",
-        description: "it is foreign tomatoes from Brazil",
-        id: "fc1004@25",
-        isNew: true,
-    },
+const products = [
+  {
+    name: "Tomatoes",
+    price: 25,
+    owner: "Latif",
+    qnty: 2.5,
+    image: "tomatoes.jpeg",
+    description: "It is foreign tomatoes from Brazil",
+    id: "fc1004@25",
+    isNew: true,
+  },
+  {
+    name: "Soyabeans",
+    price: 400,
+    owner: "Desmond",
+    qnty: 7,
+    image: "soyabeans.jpeg",
+    description: "Brifor first class soyabeans",
+    id: "fc1024@22",
+    isNew: false,
+  },
+  {
+    name: "Tomatoes",
+    price: 25,
+    owner: "Latif",
+    qnty: 2.5,
+    image: "tomatoes.jpeg",
+    description: "It is foreign tomatoes from Brazil",
+    id: "fc1004@25",
+    isNew: true,
+  },
+  {
+    name: "Soyabeans",
+    price: 400,
+    owner: "Desmond",
+    qnty: 7,
+    image: "soyabeans.jpeg",
+    description: "Brifor first class soyabeans",
+    id: "fc1024@22",
+    isNew: false,
+  },
+  {
+    name: "Tomatoes",
+    price: 25,
+    owner: "Latif",
+    qnty: 2.5,
+    image: "tomatoes.jpeg",
+    description: "It is foreign tomatoes from Brazil",
+    id: "fc1004@25",
+    isNew: true,
+  },
+  {
+    name: "Soyabeans",
+    price: 400,
+    owner: "Desmond",
+    qnty: 7,
+    image: "soyabeans.jpeg",
+    description: "Brifor first class soyabeans",
+    id: "fc1024@22",
+    isNew: false,
+  },
+];
 
-    {
-        name: "soyabeans",
-        price: 400,
-        owner: "Januarius",
-        qnty: 7,
-        image: "soyabeans.jpeg",
-        description: "Daffiama first class soyabeans",
-        id: "fc1024@22",
-        isNew: false
-    },
-]
-
-module.exports=products
+module.exports = products;
